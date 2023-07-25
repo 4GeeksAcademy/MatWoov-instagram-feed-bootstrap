@@ -1,9 +1,7 @@
-body {
-    background-color: black;
-}
-
 .nav-light-top {
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(21, 17, 17);
+    color: whitesmoke;
+    width: 100%;
 }
 
 .image-size img {
@@ -11,19 +9,23 @@ body {
     height: 300px;
     object-fit: cover;
 }
+
 .head-card {
     display: flex;
     justify-content: space-between;
     padding: 5px;
     height: 45px;
 }
+
 .head-card h5 {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .card-text {
     padding: 10px;
 }
+
 .card-text p {
     margin-bottom: 0;
 }
